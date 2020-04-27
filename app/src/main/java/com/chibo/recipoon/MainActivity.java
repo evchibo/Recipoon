@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         setContentView(R.layout.activity_main);
         recyclerView = findViewById(R.id.recyclerView);
         searchView = findViewById(R.id.searchView);
+        searchView.setQueryHint("Search For Recipe");
+        searchView.setBackgroundResource(R.drawable.searchview_rounded);
 
 
          apiService = ApiClient.getClient().create(ApiInterface.class);

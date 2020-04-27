@@ -26,6 +26,7 @@ public class Recipe {
         @Expose
         private List<String> imageUrls = null;
 
+
     public Recipe(Integer id, String title, Integer readyInMinutes, Integer servings, String image) {
         this.id = id;
         this.title = title;
@@ -50,6 +51,7 @@ public class Recipe {
         public void setTitle(String title) {
             this.title = title;
         }
+        //public void setReadyText(String ReadyText)
 
         public Integer getReadyInMinutes() {
             return readyInMinutes;
