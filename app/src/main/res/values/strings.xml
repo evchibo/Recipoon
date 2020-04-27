@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Recipoon</string>
+    <string name="title_activity_recipe_details">RecipeDetailsActivity</string>
+</resources>
